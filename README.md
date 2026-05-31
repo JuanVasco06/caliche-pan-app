@@ -17,3 +17,4 @@ Abrir `index.html` en el navegador o usar la extensión Live Server de Visual St
 
 ## Publicación sugerida
 Subir la carpeta a un repositorio de GitHub y activar GitHub Pages desde Settings > Pages > Deploy from branch > main.
+Despliegue GitHub Pages
