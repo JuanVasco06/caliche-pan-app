@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Caliche Pan | Login</title><link rel="stylesheet" href="css/styles.css"></head>
+<body>
+  <main class="app">
+    <a class="back" href="index.html">‹</a>
+    <section class="brand brand--small"><div class="brand__logo">🌾</div><div><h1>Caliche Pan</h1><p>Panadería artesanal</p></div></section>
+    <section class="form-head"><h2>Iniciar sesión</h2><p>Ingresa tus datos para continuar</p></section>
+    <form class="form" onsubmit="return loginUser(event)">
+      <label>Correo electrónico<input id="loginEmail" type="email" value="tu@email.com" required></label>
+      <label>Contraseña<input id="loginPass" type="password" value="12345678" required></label>
+      <a href="#" class="link-accent">¿Olvidaste tu contraseña?</a>
+      <button class="btn btn--primary" type="submit">Ingresar</button>
+    </form>
+    <p class="center-text">¿No tienes cuenta? <a href="registro.html" class="link-accent">Regístrate aquí</a></p>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html>
